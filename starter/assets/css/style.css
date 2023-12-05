@@ -41,7 +41,7 @@ body {
     margin-left: 25px;
 }
 
-a {
+a:focus {
     color: #ffffff;
     text-decoration: none;
 }
@@ -132,6 +132,13 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+/* Add focus styles for buttons */
+.benefit-lead button:focus,
+.benefit-brand button:focus,
+.benefit-cost button:focus {
+    outline: 2px solid #ffffff;
 }
 
 .search-engine-optimization {
